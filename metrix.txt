@@ -1,0 +1,71 @@
+training data
+Llegó a tiempo: 5719 | 63.55%
+No llegó a tiempo: 3280 | 36.45%
+
+WITHOUT OUTLIER TREATMENT
+
+Logistic Regression
+Precisión: 0.6675555555555556
+Recall: 0.738795518207283
+              precision    recall  f1-score   support
+
+           0       0.55      0.54      0.54       822
+           1       0.74      0.74      0.74      1428
+
+    accuracy                           0.67      2250
+   macro avg       0.64      0.64      0.64      2250
+weighted avg       0.67      0.67      0.67      2250
+
+Llegó a tiempo: 1082 | 54.1%
+No llegó a tiempo: 918 | 45.9%
+
+
+Random Forest Classification
+Precisión: 0.6924444444444444
+Recall: 0.6351540616246498
+              precision    recall  f1-score   support
+
+           0       0.56      0.79      0.65       822
+           1       0.84      0.64      0.72      1428
+
+    accuracy                           0.69      2250
+   macro avg       0.70      0.71      0.69      2250
+weighted avg       0.74      0.69      0.70      2250
+
+Llegó a tiempo: 607 | 30.35%
+No llegó a tiempo: 1393 | 69.65%
+
+
+K-Nearest Neighbors
+Precisión: 0.6666666666666666
+Recall: 0.7086834733893558
+              precision    recall  f1-score   support
+
+           0       0.54      0.59      0.57       822
+           1       0.75      0.71      0.73      1428
+
+    accuracy                           0.67      2250
+   macro avg       0.65      0.65      0.65      2250
+weighted avg       0.67      0.67      0.67      2250
+
+Llegó a tiempo: 931 | 46.55%
+No llegó a tiempo: 1069 | 53.45%
+
+
+Decision Tree Classification
+Precisión: 0.6848888888888889
+Recall: 0.7443977591036415
+              precision    recall  f1-score   support
+
+           0       0.57      0.58      0.57       822
+           1       0.76      0.74      0.75      1428
+
+    accuracy                           0.68      2250
+   macro avg       0.66      0.66      0.66      2250
+weighted avg       0.69      0.68      0.69      2250
+
+Llegó a tiempo: 906 | 45.3%
+No llegó a tiempo: 1094 | 54.7%
+
+
+WITH OUTLIER TREATMENT
